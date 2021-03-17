@@ -23,9 +23,9 @@ class Word:
         Calculates points. If user typed word, points are the sum of the 
         total letters in the word. If typed incorrectly, player receives 0 points.
         """
-        if word == input:
-            points = sum(len(word))
+        if self.word == input:
+            self.points = sum(len(self.word))
         else:
-            points = 0 
+            self.points = 0 
     
 
