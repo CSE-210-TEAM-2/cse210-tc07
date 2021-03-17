@@ -2,7 +2,7 @@ class Word:
     def __init__(self):
         """
         Class constructor
-        Attributes: 
+        Attributes: move_word, points
 
         """
 
@@ -19,4 +19,4 @@ class Word:
         the same.
         """
     
-    
+
