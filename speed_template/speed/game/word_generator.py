@@ -2,7 +2,7 @@
 
 
 
-with open("name.txt", "rt") as infile:
+with open("words.txt", "rt") as infile:
 
     # Read all the quotes in the file into a list.
     string = infile.read()
